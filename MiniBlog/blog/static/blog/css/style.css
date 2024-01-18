@@ -1,11 +1,11 @@
 body {
     background: linear-gradient(to bottom, black 35%, lightslategray 90%) no-repeat fixed;
-    color: white;
+    color: cornsilk;
 }
 
 .navbar {
    background: linear-gradient(to bottom, blueviolet 20%, indigo 80%) no-repeat;
+    color: cornsilk;
 }
-
 
 

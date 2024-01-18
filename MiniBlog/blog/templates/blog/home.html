@@ -5,10 +5,59 @@
 
 {% block content %}
 <div class="container-fluid">
-<div class="col-sm-10">
-    <h3 class="text-white">Home</h3>
-    <p class="lead">Welcome to my mini blog!</p><br>
+    <div class="col-sm-10" style="font-family: Bahnschrift;">
+        <h1 class="text-white my-3">Welcome to Mini Blog</h1>
+
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="card mb-4" style="max-width: 18rem;
+                        background: linear-gradient(to bottom, blueviolet 10%, indigo 80%) no-repeat; color: cornsilk;">
+                    <div class="card-header">Blog Feed</div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on
+                            the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mb-4" style="max-width: 18rem;
+                        background: linear-gradient(to bottom, blueviolet 10%, indigo 80%) no-repeat; color: cornsilk;">
+                    <div class="card-header">Blog Feed</div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on
+                            the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mb-4" style="max-width: 18rem;
+                        background: linear-gradient(to bottom, blueviolet 10%, indigo 80%) no-repeat; color: cornsilk;">
+                    <div class="card-header">Blog Feed</div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on
+                            the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron jumbotron-fluid bg-gradient">
+            <div class="container rounded"
+                 style="background: linear-gradient(to bottom, rebeccapurple 10%, indigo 80%) no-repeat; color: cornsilk;">
+                <h3 class="display-5">This is my blog's title</h3>
+                <p class="lead">{{blog_text}}</p>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid bg-gradient">
+            <div class="container rounded"
+                 style="background: linear-gradient(to bottom, rebeccapurple 10%, indigo 80%) no-repeat; color: cornsilk;">
+                <h3 class="display-5">This is my blog's title</h3>
+                <p class="lead">{{blog_text}}</p>
+            </div>
+        </div>
+    </div>
+
 </div>
-</div>
+
 {% endblock %}
 ```
